@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GentDevs2023</title>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Oswald&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>OpenScience</h1>
+        <div class="divider">
+            <a href="main.html" class="buttonHead">Home</a>
+            <a href="" class="buttonHead">About</a>
+            <a href="profile.html" class="buttonHead">Profile</a>
+            <div class="headsub">
+                <a href="login.html" class="buttonHeadsub">Log in</a>
+                <a href="login.html" class="buttonHeadsub">Log out</a>
+                <!-- <button class="buttonHeadsub">Log out</button> -->
+            </div>
+        </div>
+    </header>
+
+    <section class="creator">
+        <h1>Fill the Form</h1>
+        <form action="" method="POST" enctype="multipart/form-data" class="create-form">
+            <div class="form-element">
+                <input type="text" name="title" placeholder="Title:" required>
+                <select name="categ_id" id="">
+                    <option value=""></option>
+                    <option value="physics">Physics</option>
+                    <option value="art">Art</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="biology">Biology</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="mathematic">Mathematic</option>
+                    <option value="geography">Geography</option>
+                </select>
+                <input type="text" name="contacts" placeholder="Contacts:" required>
+                <textarea name="details" id="" cols="90" rows="20" placeholder="Details" required></textarea>
+                <textarea name="goals" id="" cols="70" rows="20" placeholder="Goals" required></textarea>
+                <button class="send-btn" type="submit">Send</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="contact">
+            <p>+7 79609-059654</p>
+            <p>+7 594843584-45</p>
+        </div>
+        <p class="rights">All rights reserved.</p>
+    </section>
+</body>
+</html>

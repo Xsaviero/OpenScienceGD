@@ -1,0 +1,56 @@
+.creator{
+    margin-left: 50px;
+}
+
+.creator h1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.form-element input{
+    width: 320px;
+    display: block;
+    height: 50px;
+    border: 3px solid #e3eaf3;
+    border-radius: 15px;
+    margin: 50px 0;
+    padding-left: 15px;
+}
+
+.form-element textarea{
+    border: 3px solid gray;
+    border-radius: 25px;
+    outline: none;
+    padding: 20px 10px;
+}
+
+.form-element textarea::placeholder{
+    margin-top: 10px;
+    color: #505d6e;
+}
+
+.form-element select{
+    width: 320px;
+    display: block;
+    height: 50px;
+    border: 3px solid #e3eaf3;
+    border-radius: 15px;
+    margin: 50px 0;
+    padding-left: 15px;
+}
+
+.form-element option{
+    font-size: 15px;
+}
+
+.send-btn{
+    color: orange;
+    font-size: 20px;
+    margin: 50px 0 0;
+    width: 150px;
+    display: block;
+    height: 50px;
+    background-color: #597D35;
+    border: 3px solid #354A21;
+    border-radius: 15px;
+}

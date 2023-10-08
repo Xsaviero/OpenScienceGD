@@ -1,0 +1,91 @@
+.profile{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-profile{
+    width: 85%;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.right-profile a{
+    margin-right: 30px;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: orange;
+    background-color: olivedrab;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid olivedrab;
+    border-radius: 30px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.right-profile a:hover{
+    background-color: darkolivegreen;
+}
+
+.profile img{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.profile-text{
+    background-color: gray;
+}
+
+.profile h2{
+    font-size: 30px;
+    padding: 20px;
+    background-color: darkgray;
+}
+
+.profile h3{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.project-item img{
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.pro-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid darkgray;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.project-text{
+    align-items: center;
+    margin-top: 40px;
+}
+
+.project-item a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.project-item p{
+    margin-top: 10px;
+    text-align: justify;
+}

@@ -1,0 +1,60 @@
+.details{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.details img{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.details h3{
+    font-size: 60px;
+}
+
+.details h4{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.details p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.numeration{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 15px;
+    width: 15px;
+    border: 3px solid darkolivegreen;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.stages-item p{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#date{
+    color: cadetblue;
+    margin-left: 200px;
+    text-decoration: underline;
+}
+
+.stages{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stages-item{
+    margin: 15px 0;
+}
